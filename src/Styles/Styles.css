@@ -22,6 +22,15 @@
 {
   background-color:  #e73949;
 }
+#Search
+{
+  background-color: #6ba03f;
+}
+#Help
+{
+  background-color:  #605d9e;
+}
+
 #tags
 {
   width: 300px;
@@ -29,4 +38,8 @@
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: 40px;
 
+}
+#main
+{
+  margin-left: 10%;
 }
