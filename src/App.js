@@ -11,13 +11,14 @@ import Search from './Day_1/Search';
 import Help from './Day_1/Help';
 import Home from './Day_1/Home';
 import Download from './Day_1/Download';
+import Counter from './Day2/Counter';
 
 class App extends Component {
   render ()
   {
   return (
     <div id='main'> 
-    <Sample/>
+    {/* <Sample/>
 
     
     <div id="tags">
@@ -29,8 +30,10 @@ class App extends Component {
     <Help/>
     <Home/>
     <Download/>
-    </div>
+    </div> */}
    
+
+   <Counter/>
     </div>
   );
   
