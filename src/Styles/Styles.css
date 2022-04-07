@@ -1,0 +1,32 @@
+.headings
+{
+  background-color:#1a9fd9;
+  color: white;
+  padding-bottom: 7px;
+  font-size: 18px;
+  width: 120px;
+  height: 20px;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+}
+#Setting
+{
+  background-color: #72a8af;
+}
+#login
+{
+  background-color: #f78e1a;
+}
+#CotactUS
+{
+  background-color:  #e73949;
+}
+#tags
+{
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 40px;
+
+}

@@ -1,25 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import './Styles/Styles.css'
+import Sample from './Day_1/Sample'
+import JoinUs from './Day_1/JoinUs'
+import { Component } from 'react';
+import Setting from './Day_1/Setting';
+import Login from './Day_1/Login';
+import ContactUs from './Day_1/ContactUs';
 
-function App() {
+class App extends Component {
+  render ()
+  {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Sample/>
+
+    
+    <div id="tags"> <JoinUs/>
+    <Setting/>
+    <Login/>
+    <ContactUs/>
+    </div>
+   
     </div>
   );
+  
+
+  }
+  
 }
+
+  
+
 
 export default App;
