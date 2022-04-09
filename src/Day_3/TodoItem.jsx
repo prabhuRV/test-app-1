@@ -1,16 +1,17 @@
 import React from 'react'
 
-const TodoItem=({item})=> {
-    
-    //console.log(data)
-    //const {title,id,status}=item
-   console.log({item})
-  return (
-   <>
+const  Todoitem = (props) => {
+console.log(props)
 
-   {/* <h1>{item.title}</h1> */}
-   </>
+const {title,id,status,handleRemove,color} = props;
+
+
+  return (
+    <div id="btndiv">
+        <h1    >{title}</h1>
+        <button style={{color}} className='deletebutton' onClick={()=>handleRemove(id)}></button>
+    </div>
   )
 }
 
-export default TodoItem
+export default Todoitem;

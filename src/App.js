@@ -35,10 +35,10 @@ class App extends Component {
     </div> */}
    
 
-   {/* <Counter/> */}
+   <Counter />
    
-   <TodoList/>
-   <TodoItem/>
+   {/* <TodoList/> */}
+  
     </div>
   );
   
