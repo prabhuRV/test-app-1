@@ -12,6 +12,8 @@ import Help from './Day_1/Help';
 import Home from './Day_1/Home';
 import Download from './Day_1/Download';
 import Counter from './Day2/Counter';
+import TodoItem from './Day_3/TodoItem';
+import TodoList from './Day_3/TodoList';
 
 class App extends Component {
   render ()
@@ -33,7 +35,10 @@ class App extends Component {
     </div> */}
    
 
-   <Counter/>
+   {/* <Counter/> */}
+   
+   <TodoList/>
+   <TodoItem/>
     </div>
   );
   
