@@ -6,7 +6,7 @@ function Counter() {
 
     const handleInc=()=>
     {
-        setCount(count+2)
+        setCount(count+1)
     }
     const handleDec=()=>
     {
@@ -19,13 +19,13 @@ function Counter() {
   return (
    <>
    <h1>Counter</h1>
-   <h1 style={color}>{count}</h1>
+   <h1 style={{color :count%2==0 ? "green":
+    "red"}}>{count}</h1>
    <button onClick={()=>handleInc()}>Increment</button>
    <button onClick={()=>handleDec()}>Decrement</button>
    <button onClick={()=>handleDouble()}>Double</button>
    </>
-   color = count%2===0 ? "#87ffc5":
-   "#7f7bff"
+   
   )
 }
 
